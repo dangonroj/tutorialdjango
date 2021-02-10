@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Subir una nueva imagen</title>
+  </head>
+  <body>
+    <form action="{% url 'galeria:subir_imagen' %}" method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      <p>
+          <input id="id_image" type="file" accept="image/*" name="imagen" required>
+      </p>
+      <p>
+          Nombre de la imagen:
+          <input id="id_name" type="text" name="nombre" required>
+      </p>
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>

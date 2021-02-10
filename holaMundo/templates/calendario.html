@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tutorial - Calendario</title>
+  </head>
+  <body>
+    <h1>Calendario</h1>
+    <p>Hoy es {{ fecha }} (sin formato) </p>
+    <p>Hoy es {{ fecha|date:" j \d\e F \d\e Y"}} (con formato) </p>
+    <p>Hoy es {% now "jS F Y H:i" %} (usando sólo la plantilla)</p>
+  </body>
+</html>
