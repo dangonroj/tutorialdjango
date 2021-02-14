@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultados</title>
+</head>
+<body>
+
+{% include "menu.html" %}
+
+        <ul>
+            {%  for alum in alumnos %}
+                <li><a href="/master/alum/{{ alum.id }}">{{ alum.nombre }} {{ alum.apellidos }}</a></li>
+            {% empty %}
+                <p>No hay alumnos con esos apellidos.</p>
+            {%  endfor %}
+        </ul>
+</body>
+</html>

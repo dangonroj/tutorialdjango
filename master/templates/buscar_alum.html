@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crear nuevo/a alumno/a</title>
+</head>
+<body>
+
+{% include "menu.html" %}
+
+<h1>Buscar alumno/a</h1>
+
+    <form action="/master/buscar_alum/" method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      <p>
+          Apellidos:
+          <input id="id_q" type="text" name="q" required>
+      </p>
+
+      <input type="submit" value="Buscar" />
+</body>
+</html>

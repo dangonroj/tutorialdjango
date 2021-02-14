@@ -1,32 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09ef8cb0-da90-4402-ab61-b12378c1fe64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/master/templates/indexMaster.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/master/templates/ver_asignatura.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/master/templates/ver_prof.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/master/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tutorial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tutorial.iml" afterDir="false" />
+    <list default="true" id="09ef8cb0-da90-4402-ab61-b12378c1fe64" name="Default Changelist" comment="Acytalizado master">
+      <change afterPath="$PROJECT_DIR$/master/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/master/templates/buscar_alum.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/master/templates/crear_alum.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/master/templates/listado_alum.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/galeria/migrations/0002_imagen_fecha.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galeria/migrations/0003_remove_imagen_fecha.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galeria/migrations/0004_imagen_fecha.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galeria/migrations/0005_auto_20210207_1945.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galeria/migrations/0006_auto_20210207_1949.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galeria/migrations/0007_auto_20210207_1950.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galeria/migrations/0008_auto_20210207_1954.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galeria/migrations/0009_auto_20210207_1956.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galeria/migrations/0010_auto_20210207_2001.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galeria/migrations/0011_auto_20210207_2003.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galeria/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/galeria/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/holaMundo/templates/calculadora.html" beforeDir="false" afterPath="$PROJECT_DIR$/holaMundo/templates/calculadora.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/holaMundo/templates/inicio.html" beforeDir="false" afterPath="$PROJECT_DIR$/holaMundo/templates/inicio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/holaMundo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/holaMundo/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/holaMundo/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/holaMundo/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/templates/indexMaster.html" beforeDir="false" afterPath="$PROJECT_DIR$/master/templates/indexMaster.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/templates/ver_alum.html" beforeDir="false" afterPath="$PROJECT_DIR$/master/templates/ver_alum.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/templates/ver_asignatura.html" beforeDir="false" afterPath="$PROJECT_DIR$/master/templates/ver_asignatura.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/templates/ver_prof.html" beforeDir="false" afterPath="$PROJECT_DIR$/master/templates/ver_prof.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/master/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/master/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="HTML File" />
       </list>
     </option>
@@ -58,6 +46,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -109,8 +98,23 @@
       <workItem from="1612894231158" duration="7219000" />
       <workItem from="1613232854007" duration="2698000" />
       <workItem from="1613239949352" duration="4875000" />
-      <workItem from="1613302416811" duration="9079000" />
+      <workItem from="1613302416811" duration="13882000" />
     </task>
+    <task id="LOCAL-00001" summary="Acytalizado master">
+      <created>1613321220865</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613321220865</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Acytalizado master">
+      <created>1613321263928</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613321263928</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,5 +131,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Acytalizado master" />
+    <option name="LAST_COMMIT_MESSAGE" value="Acytalizado master" />
   </component>
 </project>

@@ -5,6 +5,9 @@
     <title>{{ asignatura.nombre }}</title>
 </head>
 <body>
+
+{% include "menu.html" %}
+
     <h1>Asignatura</h1>
     <p>Nombre: {{ asignatura.nombre }}</p>
     <p>Créditos: {{ asignatura.creditos }}</p>

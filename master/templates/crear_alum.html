@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crear nuevo/a alumno/a</title>
+</head>
+<body>
+
+{% include "menu.html" %}
+
+<h1>Crear nuevo/a alumno/a</h1>
+
+    <form action="/master/crear_alum/" method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      <p>
+          Nombre:
+          <input id="id_nombre" type="text" name="nombre" required>
+      </p>
+        <p>
+          Apellidos:
+          <input id="id_apellidos" type="text" name="apellidos" required>
+      </p>
+        <p>
+          Email:
+          <input id="id_email" type="text" name="email" required>
+      </p>
+      <input type="submit" value="Dar de alta" />
+</body>
+</html>
