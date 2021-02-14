@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ alum.nombre }} {{ alum.apellidos }}</title>
+</head>
+<body>
+    <h1>Alumno/a</h1>
+    <p>Nombre: {{ alum.nombre }}</p>
+    <p>Apellidos: {{ alum.apellidos }}</p>
+    <p>Email: {{ alum.email }}</p>
+    <p>Asignaturas en las que está matriculado/a:</p>
+        <ul>
+            {%  for matricula in matriculas %}
+                <li><a href="/master/asignatura/{{ matricula.asignatura.id }}">{{ matricula.asignatura.nombre }}</a>
+                    -
+                    {%  if matricula.presentado %}
+                        {{ matricula.nota }}
+                    {% else %}
+                        No presentado
+                    {%  endif %}
+                </li>
+            {% empty %}
+                <p>No hay matrículas actualmente.</p>
+            {%  endfor %}
+        </ul>
+</body>
+</html>
