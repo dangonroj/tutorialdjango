@@ -30,7 +30,8 @@ urlpatterns = [
     url('calendario/', views.calendario, name='reloj'),
     url('calculadora/(?P<a>\d+)/(?P<b>\d+)', views.calculadora, name='calculadora'),
     url('holaMundo2/', views.holaMundo2),
-    url('holaMundo/', include('holaMundo.urls'))
+    url('holaMundo/', views.holaMundo),
+    path('master/', include('master.urls')),
 ]
 
 #para imagenes

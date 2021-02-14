@@ -1,11 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09ef8cb0-da90-4402-ab61-b12378c1fe64" name="Default Changelist" comment="" />
+    <list default="true" id="09ef8cb0-da90-4402-ab61-b12378c1fe64" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/master/templates/indexMaster.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/master/templates/ver_asignatura.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/master/templates/ver_prof.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/master/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tutorial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tutorial.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/galeria/migrations/0002_imagen_fecha.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galeria/migrations/0003_remove_imagen_fecha.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galeria/migrations/0004_imagen_fecha.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galeria/migrations/0005_auto_20210207_1945.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galeria/migrations/0006_auto_20210207_1949.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galeria/migrations/0007_auto_20210207_1950.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galeria/migrations/0008_auto_20210207_1954.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galeria/migrations/0009_auto_20210207_1956.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galeria/migrations/0010_auto_20210207_2001.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galeria/migrations/0011_auto_20210207_2003.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galeria/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/galeria/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/holaMundo/templates/calculadora.html" beforeDir="false" afterPath="$PROJECT_DIR$/holaMundo/templates/calculadora.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/holaMundo/templates/inicio.html" beforeDir="false" afterPath="$PROJECT_DIR$/holaMundo/templates/inicio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/holaMundo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/holaMundo/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/holaMundo/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/holaMundo/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -16,18 +52,23 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1oCYpKhMuCBPJ5vhJFYeYHwDUCB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/holaMundo/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/master/templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/master/templates" />
+      <recent name="$PROJECT_DIR$/master" />
       <recent name="$PROJECT_DIR$/holaMundo/templates" />
     </key>
   </component>
@@ -66,10 +107,25 @@
       <updated>1612792224004</updated>
       <workItem from="1612792226016" duration="41000" />
       <workItem from="1612894231158" duration="7219000" />
+      <workItem from="1613232854007" duration="2698000" />
+      <workItem from="1613239949352" duration="4875000" />
+      <workItem from="1613302416811" duration="9079000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

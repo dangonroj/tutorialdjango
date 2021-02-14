@@ -27,7 +27,7 @@ SECRET_KEY = '_s3p+kuy37ar-sss_^**a3+a-6n8yj$$!dw2t1vj&zongd-2wk'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
@@ -35,6 +35,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'holaMundo.apps.HolamundoConfig',
     'galeria.apps.GaleriaConfig',
+    'master.apps.MasterConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

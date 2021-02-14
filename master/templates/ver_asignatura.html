@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ asignatura.nombre }}</title>
+</head>
+<body>
+    <h1>Asignatura</h1>
+    <p>Nombre: {{ asignatura.nombre }}</p>
+    <p>Créditos: {{ asignatura.creditos }}</p>
+    <p>Curso: {{ asignatura.curso }}</p>
+    <p>Profesores/as:</p>
+        <ul>
+            {%  for profesor in asignatura.profesores.all %}
+            <li><a href="/master/prof/{{ profesor.id }}">{{ profesor.nombre }} {{ profesor.apellidos }}</a></li>
+            {%  endfor %}
+        </ul>
+</body>
+</html>

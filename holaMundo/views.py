@@ -14,12 +14,10 @@ def holaMundo(request):
 
 
 def holaMundo2(request):
-
     return render(request, 'holaMundo2.html')
 
 
 def calendario(request):
-    #enviando datos
     hoy = date.today()
     return render(request, 'calendario.html', {'fecha': hoy})
 

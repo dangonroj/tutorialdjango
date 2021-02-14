@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Máster</title>
+</head>
+<body>
+<h1>Bienvenid@ a la página de inicio del máster</h1>
+
+    <li><b> Asignaturas disponibles</b>
+        <ul>
+            {%  for asignatura in asignaturas %}
+            <li><a href="asignatura/{{ asignatura.id }}">{{ asignatura.nombre }}</a></li>
+            {%  endfor %}
+        </ul>
+      </li>
+
+      <li><b>Profesores/as</b>
+        <ul>
+            {%  for profesor in profesores %}
+                <li><a href="prof/{{ profesor.id }}">{{ profesor.nombre }} {{ profesor.apellidos }}</a></li>
+            {%  endfor %}
+        </ul>
+      </li>
+
+    <li><b>Alumnos/as matriculados/as</b>
+        <ul>
+            {%  for alumno in alumnos %}
+                <li><a href="alum/{{ alumno.id }}">{{ alumno.nombre }} {{ alumno.apellidos }}</a></li>
+            {%  endfor %}
+        </ul>
+    </li>
+
+</body>
+</html>
